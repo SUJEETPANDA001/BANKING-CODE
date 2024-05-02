@@ -140,7 +140,7 @@ class InnerBANKING {
         if (accountno.equals(acno)) {
             System.out.println("Enter your mpin: ");
             int mpintemp = sc.nextInt();
-            if (mpintemp=mpin()) {
+            if (mpintemp==mpin()) {
                 System.out.println("Name of account holder: " + name);
                 System.out.println("Account no.: " + accountno);
                 System.out.println("Your Account type: " + accounttype);
